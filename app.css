@@ -1,3 +1,21 @@
 body{
     font-family: "Karla", sans-serif;
 }
+
+.navbar-nav .nav-link{
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    font-size: 11.35px;
+    color: #242424;
+    transition: color 0.3s ease-in;
+}
+
+.navbar-nav .nav-item .active{
+    color: #af7f66;
+}
+
+.nav-link:hover{
+    color:#af7f66; 
+}
+
