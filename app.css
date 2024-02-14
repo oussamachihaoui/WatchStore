@@ -32,7 +32,7 @@ body{
 }
 
 .article .divArticle{
-    width: 400px;
+    width: 450px;
     height: 40%;
     padding: 40px 70px;
     box-sizing: border-box;
@@ -73,5 +73,37 @@ body{
 }
 
 .hero-footLink a:hover{
+    text-decoration: underline;
+}
+
+
+.headerSection {
+    font-family: "Libre Baskerville",sans-serif;;
+}
+
+.infoSection{
+ color: #868686;
+}
+
+
+.card-group .card ,.card-footer{
+    background-color: #F8F7F6;
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(0.95);
+}
+.price{
+    color: #af7f66;
+}
+.buyNow{
+    color: #af7f66;
+    text-decoration: none;
+
+}
+
+.buyNow:hover{
     text-decoration: underline;
 }
