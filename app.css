@@ -49,7 +49,7 @@ body{
 }
 
 
-.article .hero-link{
+.hero-link{
     color: white;
     padding: 0.9em 1.7em;
     border: 3px solid #43403F;
@@ -106,4 +106,28 @@ body{
 
 .buyNow:hover{
     text-decoration: underline;
+}
+
+.imgRight{
+    background-position: center;
+    background-size: cover;
+    width: 99%;
+    background-repeat: no-repeat;
+   height:auto;
+}
+
+
+.learn-more{
+    color: #242424;
+    text-decoration: none;
+    padding: 0.9em 1.7em;
+    border: 3px solid #d7d6d5;
+    line-height: 22px;
+    transition: all 0.3s ease-in;
+    
+}
+
+.learn-more:hover{
+    color: white;
+    background-color: #242424;
 }
