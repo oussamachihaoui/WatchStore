@@ -131,3 +131,25 @@ body{
     color: white;
     background-color: #242424;
 }
+
+
+/* styling watch featurees section */
+.features{
+    background-color: #F8F7F6;
+}
+
+.coolWatch{
+    height: 450px;
+}
+
+ .number{
+    color: #868686;
+}
+
+.watchId{
+    color: #242424;
+}
+
+.watchInfo{
+    color: #868686;
+}
