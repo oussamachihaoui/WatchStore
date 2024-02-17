@@ -111,9 +111,8 @@ body{
 .imgRight{
     background-position: center;
     background-size: cover;
-    width: 99%;
     background-repeat: no-repeat;
-   height:auto;
+   
 }
 
 
@@ -136,10 +135,6 @@ body{
 /* styling watch featurees section */
 .features{
     background-color: #F8F7F6;
-}
-
-.coolWatch{
-    height: 450px;
 }
 
  .number{
