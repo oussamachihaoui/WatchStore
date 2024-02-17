@@ -78,7 +78,7 @@ body{
 
 
 .headerSection {
-    font-family: "Libre Baskerville",sans-serif;;
+    font-family: "Libre Baskerville",sans-serif;
 }
 
 .infoSection{
@@ -103,10 +103,9 @@ body{
     text-decoration: none;
 
 }
-
 .buyNow:hover{
     text-decoration: underline;
-}
+} 
 
 .imgRight{
     background-position: center;
@@ -148,3 +147,31 @@ body{
 .watchInfo{
     color: #868686;
 }
+
+
+
+/* repair section & repair cards section */
+
+span .buyNow{
+    font-size: 2.5rem;
+    color: #242424;
+    font-family:"Libre Baskerville",sans-serif; ;
+    text-decoration: underline 0.1em rgba(255, 255, 255, 0);
+    transition: text-decoration-color 300ms;
+      
+      
+      
+}
+span .buyNow:hover{
+    text-decoration-color: rgb(0, 0, 0);
+}
+/* .special::after{
+    opacity: 1;
+  transform: scale(0);
+  transform-origin: center;
+}
+
+
+.special:hover::after , .special:focus::after{
+    transform: scale(1);
+} */
