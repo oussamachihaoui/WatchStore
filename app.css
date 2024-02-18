@@ -90,6 +90,10 @@ body{
     background-color: #F8F7F6;
     border: none;
     transition: transform 0.3s ease-in-out;
+    
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .card:hover{
@@ -131,6 +135,8 @@ body{
 }
 
 
+
+
 /* styling watch featurees section */
 .features{
     background-color: #F8F7F6;
@@ -165,13 +171,68 @@ span .buyNow{
 span .buyNow:hover{
     text-decoration-color: rgb(0, 0, 0);
 }
-/* .special::after{
-    opacity: 1;
-  transform: scale(0);
-  transform-origin: center;
+
+
+
+/* styling blog section */
+.blog{
+   
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.blog .blog1{
+    background: rgba(0, 0, 0, 0.3) url(/assests/image-4-copyright-1410x792.jpg);
+    min-height: 600px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-blend-mode: darken;
+    transition: all 0.3s ease-in-out;
 }
 
 
-.special:hover::after , .special:focus::after{
-    transform: scale(1);
-} */
+
+.blog .blog2{
+    background: rgba(0, 0, 0, 0.3) url(assests/image-30-copyright-1410x792.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+
+}
+
+.blog .blog3{
+    background: rgba(0, 0, 0, 0.3) url(assests/image-45-copyright-1410x792.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+
+
+.blogContent .blogDate{
+    color: white;
+    font-size: 11px;
+}
+
+.blogContent .blogHeading{
+    color:white;
+    font-size: 26px;
+    font-family: "Libre Baskerville",sans-serif;
+    text-decoration: none;
+}
+
+.blogContent .blogLink{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    
+}
+
+.blogDate,.blogHeading,.blogLink{
+    transition: color 0.3s ease-in-out;
+}
+.blogDate:hover , .blogHeading:hover , .blogLink:hover{
+    color: #AF7F66;
+    cursor: pointer;
+}
